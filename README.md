@@ -4,4 +4,11 @@
 * Anna Adhiambo
 
 ## Description
-* An application that will help someone who never had the chance to be able to watch news on time.Here are the list and preview news articles from various sources which will enable you to see what you were not able to watch on time.   
+* An application that will help someone who never had the chance to be able to watch news on time.Here you will be able to get the trending news.
+
+## Technology Used
+* Python
+* Pip
+* CSS
+* Flask Framework
+* Bootsrap
