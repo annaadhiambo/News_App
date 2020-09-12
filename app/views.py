@@ -1,9 +1,9 @@
 from flask import render_template
 from newsapi import Newsapiclient
-from .import main
+
 
 # Views
-@main.route('/')
+@app.route('/')
 def index():
 
 newsapi = Newsapiclient(api_key ="b6b97041f75646a49484f3adc0ff7156")
