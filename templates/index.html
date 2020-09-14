@@ -20,18 +20,17 @@
                     <div class="card-body d-flex mt-2" style="width: 24rem;">
                         <div class="card-cont">
                             <img class="img-fluid" width="500" src=" {{ article.urlToImage }} ">
-                            <h5 style="font-family: 'Lobster', cursive; color: red;">  {{ article.source.name }} </h5>
+                            <h5 style="font-family: 'Lobster', cursive; color: black;">  {{ article.source.name }} </h5>
                             <h5 style="color: black;"> {{ article.title }} </h5>
                             <p> {{ article.description }} </p>
-                            <p style="color: red;"> {{ article.publishedAt }} </p>
+                            <p style="color: black;"> {{ article.publishedAt }} </p>
                             <a class="btn btn-info" target="_blank" href=" {{ article.url }} ">Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
             {% endfor %}
-<!-- footer here -->
-            {% block footer %} {% include 'footer.html' %} {% endblock %}
         </div>
+        {% block footer %} {% include 'footer.html' %} {% endblock %}
 </body>
 </html>
