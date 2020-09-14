@@ -9,7 +9,6 @@ def index():
     return render_template('index.html',articles=news['articles'])
     return '<h1 style="color:red; text-align:center; font-size:70px; background-color:grey; height:20vh;" > World News </h1>'
 
-
     
 
     
