@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBC NEWS</title>
+</head>
+<body>
+    {% for article in articles %}
+    <a href="{{ article['url']}}" target="_blank" rel="noopener noreferrer"><h1>{{article.title}}</h1></a>
+    <h2>{{ article.author }}</h2>
+    <h2>{{ article.description }}</h2>
+    <img src="{{ article ['urlToImage']}}" alt="">
+    <p>{{ article['description']}}</p>
+    <h2>{{ publishedAt }}</h2>
+    <!-- <h2>{{ source }}</h2> -->
+    <!-- <h2>{{url }}</h2> -->
+    <!-- <h2>{{ urlToImage }}</h2> -->
+    {% endfor %}
+</body>
+</html>
