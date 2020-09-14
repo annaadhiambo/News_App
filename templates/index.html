@@ -6,6 +6,10 @@
     <title>BBC NEWS</title>
 </head>
 <body>
+
+    <!-- navbar block here-->
+    {% block navbar %} {% include 'navbar.html' %} {% endblock %}
+
     {% for article in articles %}
     <a href="{{ article['url']}}" target="_blank" rel="noopener noreferrer"><h1>{{article.title}}</h1></a>
     <h2>{{ article.author }}</h2>
@@ -17,5 +21,9 @@
     <!-- <h2>{{url }}</h2> -->
     <!-- <h2>{{ urlToImage }}</h2> -->
     {% endfor %}
+
+
+    <!-- footer block here-->
+  {% block footer %} {% include 'footer.html' %} {% endblock %}
 </body>
 </html>
