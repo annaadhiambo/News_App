@@ -4,7 +4,8 @@
 * Anna Adhiambo
 
 ## Description
-* An application that will help someone who never had the chance to be able to watch news on time.This is a project that enable users to get access to various news sources and articles in the world
+* An application that will help someone who never had the chance to be able to watch news on time.This is a project that enable users to get access to various news sources and articles in the world.
+Here is the [Link](https://annyellow.herokuapp.com/) to my website
 
 ## Features
 * Landing page containing news sources
